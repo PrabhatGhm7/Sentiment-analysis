@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+numpy = "*"
+kagglehub = "*"
+transformers = "*"
+datasets = "*"
+scikit-learn = "*"
+torch = "*"
+hf-xet = "*"
+accelerate = ">=0.26.0"
+gradio = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
